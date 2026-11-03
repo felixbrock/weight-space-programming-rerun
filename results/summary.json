@@ -1,0 +1,478 @@
+{
+ "about": "Rerun of Exp 1, 2 and 5 of Sparks of Weight-Space Programming with Claude Opus 5.5, 3 runs per item",
+ "model": "claude-opus-5-5",
+ "logs_commit": "4d09ba6",
+ "run_dates": "2026-11-02 to 2026-11-03",
+ "exp1": [
+  {
+   "game": "breakout",
+   "astra": {
+    "correct": true,
+    "confidence": 99,
+    "said": "Breakout"
+   },
+   "claude": [
+    {
+     "run": 1,
+     "guess": "breakout",
+     "correct": true,
+     "confidence": 85,
+     "output_tokens": 9482,
+     "list_cost_usd": 0.827,
+     "wall_s": 80.6
+    },
+    {
+     "run": 2,
+     "guess": "breakout",
+     "correct": true,
+     "confidence": 87,
+     "output_tokens": 11121,
+     "list_cost_usd": 0.241,
+     "wall_s": 95.9
+    },
+    {
+     "run": 3,
+     "guess": "breakout",
+     "correct": true,
+     "confidence": 88,
+     "output_tokens": 9080,
+     "list_cost_usd": 0.2,
+     "wall_s": 74.2
+    }
+   ]
+  },
+  {
+   "game": "pong",
+   "astra": {
+    "correct": true,
+    "confidence": 96,
+    "said": "Pong"
+   },
+   "claude": [
+    {
+     "run": 1,
+     "guess": "pong",
+     "correct": true,
+     "confidence": 85,
+     "output_tokens": 6726,
+     "list_cost_usd": 0.77,
+     "wall_s": 63.4
+    },
+    {
+     "run": 2,
+     "guess": "pong",
+     "correct": true,
+     "confidence": 85,
+     "output_tokens": 6606,
+     "list_cost_usd": 0.151,
+     "wall_s": 63.8
+    },
+    {
+     "run": 3,
+     "guess": "pong",
+     "correct": true,
+     "confidence": 85,
+     "output_tokens": 8342,
+     "list_cost_usd": 0.186,
+     "wall_s": 75.8
+    }
+   ]
+  },
+  {
+   "game": "pacman",
+   "astra": {
+    "correct": true,
+    "confidence": 96,
+    "said": "Pac-Man"
+   },
+   "claude": [
+    {
+     "run": 1,
+     "guess": "pacman",
+     "correct": true,
+     "confidence": 60,
+     "output_tokens": 8013,
+     "list_cost_usd": 0.797,
+     "wall_s": 78.1
+    },
+    {
+     "run": 2,
+     "guess": "pacman",
+     "correct": true,
+     "confidence": 75,
+     "output_tokens": 9559,
+     "list_cost_usd": 0.21,
+     "wall_s": 85.5
+    },
+    {
+     "run": 3,
+     "guess": "pacman",
+     "correct": true,
+     "confidence": 80,
+     "output_tokens": 9900,
+     "list_cost_usd": 0.217,
+     "wall_s": 83.2
+    }
+   ]
+  },
+  {
+   "game": "freeway",
+   "astra": {
+    "correct": true,
+    "confidence": 97,
+    "said": "Frogger"
+   },
+   "claude": [
+    {
+     "run": 1,
+     "guess": "freeway",
+     "correct": true,
+     "confidence": 75,
+     "output_tokens": 2973,
+     "list_cost_usd": 0.695,
+     "wall_s": 34.0
+    },
+    {
+     "run": 2,
+     "guess": "freeway",
+     "correct": true,
+     "confidence": 85,
+     "output_tokens": 8099,
+     "list_cost_usd": 0.181,
+     "wall_s": 79.6
+    },
+    {
+     "run": 3,
+     "guess": "freeway",
+     "correct": true,
+     "confidence": 80,
+     "output_tokens": 10087,
+     "list_cost_usd": 0.22,
+     "wall_s": 96.4
+    }
+   ]
+  }
+ ],
+ "exp2": [
+  {
+   "shape": "circle",
+   "true_fill": "filled",
+   "astra": {
+    "correct": true,
+    "confidence": 84,
+    "fill": "outline"
+   },
+   "claude": [
+    {
+     "run": 1,
+     "guess": "circle",
+     "correct": true,
+     "confidence": 70,
+     "fill": "outline",
+     "fill_correct": false,
+     "output_tokens": 4316,
+     "list_cost_usd": 0.959,
+     "wall_s": 43.6
+    },
+    {
+     "run": 2,
+     "guess": "circle",
+     "correct": true,
+     "confidence": 72,
+     "fill": "outline",
+     "fill_correct": false,
+     "output_tokens": 6192,
+     "list_cost_usd": 0.148,
+     "wall_s": 58.8
+    },
+    {
+     "run": 3,
+     "guess": "circle",
+     "correct": true,
+     "confidence": 65,
+     "fill": "outline",
+     "fill_correct": false,
+     "output_tokens": 4077,
+     "list_cost_usd": 0.106,
+     "wall_s": 41.8
+    }
+   ]
+  },
+  {
+   "shape": "square",
+   "true_fill": "filled",
+   "astra": {
+    "correct": true,
+    "confidence": 77,
+    "fill": "outline"
+   },
+   "claude": [
+    {
+     "run": 1,
+     "guess": "square",
+     "correct": true,
+     "confidence": 60,
+     "fill": "outline",
+     "fill_correct": false,
+     "output_tokens": 3719,
+     "list_cost_usd": 0.95,
+     "wall_s": 38.0
+    },
+    {
+     "run": 2,
+     "guess": "square",
+     "correct": true,
+     "confidence": 55,
+     "fill": "filled",
+     "fill_correct": true,
+     "output_tokens": 4925,
+     "list_cost_usd": 0.123,
+     "wall_s": 48.2
+    },
+    {
+     "run": 3,
+     "guess": "square",
+     "correct": true,
+     "confidence": 60,
+     "fill": "filled",
+     "fill_correct": true,
+     "output_tokens": 3178,
+     "list_cost_usd": 0.088,
+     "wall_s": 34.4
+    }
+   ]
+  },
+  {
+   "shape": "triangle",
+   "true_fill": "filled",
+   "astra": {
+    "correct": true,
+    "confidence": 88,
+    "fill": "outline"
+   },
+   "claude": [
+    {
+     "run": 1,
+     "guess": "triangle",
+     "correct": true,
+     "confidence": 65,
+     "fill": "filled",
+     "fill_correct": true,
+     "output_tokens": 4316,
+     "list_cost_usd": 0.964,
+     "wall_s": 46.2
+    },
+    {
+     "run": 2,
+     "guess": "triangle",
+     "correct": true,
+     "confidence": 72,
+     "fill": "filled",
+     "fill_correct": true,
+     "output_tokens": 3397,
+     "list_cost_usd": 0.093,
+     "wall_s": 36.2
+    },
+    {
+     "run": 3,
+     "guess": "triangle",
+     "correct": true,
+     "confidence": 65,
+     "fill": "filled",
+     "fill_correct": true,
+     "output_tokens": 7792,
+     "list_cost_usd": 0.181,
+     "wall_s": 81.3
+    }
+   ]
+  }
+ ],
+ "exp5": [
+  {
+   "game": "breakout",
+   "astra": {
+    "paper_mean": 517.4,
+    "paper_se": 7.4,
+    "rescored_mean": 515.8,
+    "rescored_se": 7.6,
+    "mean_length": 7376,
+    "capped_frac": 0.534
+   },
+   "ppo": {
+    "ppo100m_best": 15.8,
+    "ppo100m_median": 6.6,
+    "ppo500m_best": 25.3,
+    "ppo500m_median": 19.8
+   },
+   "claude": [
+    {
+     "run": 1,
+     "mean": 419.5,
+     "se": 6.1,
+     "mean_length": 7582,
+     "capped_frac": 0.571,
+     "statements": 76,
+     "skipped": 0,
+     "nonzero_weights": 880,
+     "output_tokens": 207749,
+     "api_calls": 2,
+     "list_cost_usd": 4.22,
+     "wall_s": 1972
+    },
+    {
+     "run": 2,
+     "mean": 515.6,
+     "se": 5.7,
+     "mean_length": 8475,
+     "capped_frac": 0.717,
+     "statements": 192,
+     "skipped": 0,
+     "nonzero_weights": 1462,
+     "output_tokens": 135573,
+     "api_calls": 2,
+     "list_cost_usd": 3.77,
+     "wall_s": 1195
+    },
+    {
+     "run": 3,
+     "mean": 470.1,
+     "se": 5.2,
+     "mean_length": 8395,
+     "capped_frac": 0.702,
+     "statements": 150,
+     "skipped": 0,
+     "nonzero_weights": 1588,
+     "output_tokens": 317983,
+     "api_calls": 4,
+     "list_cost_usd": 7.43,
+     "wall_s": 2976
+    }
+   ],
+   "claude_mean": 468.4
+  },
+  {
+   "game": "seaquest",
+   "astra": {
+    "paper_mean": 53.1,
+    "paper_se": 1.4,
+    "rescored_mean": 52.3,
+    "rescored_se": 1.4,
+    "mean_length": 1389,
+    "capped_frac": 0.0
+   },
+   "ppo": {
+    "ppo100m_best": 5.6,
+    "ppo100m_median": 4.4,
+    "ppo500m_best": 88.9,
+    "ppo500m_median": 7.5
+   },
+   "claude": [
+    {
+     "run": 1,
+     "mean": 12.4,
+     "se": 0.4,
+     "mean_length": 648,
+     "capped_frac": 0.0,
+     "statements": 253,
+     "skipped": 0,
+     "nonzero_weights": 2350,
+     "output_tokens": 222455,
+     "api_calls": 2,
+     "list_cost_usd": 4.51,
+     "wall_s": 2233
+    },
+    {
+     "run": 2,
+     "mean": 18.4,
+     "se": 0.6,
+     "mean_length": 484,
+     "capped_frac": 0.0,
+     "statements": 215,
+     "skipped": 0,
+     "nonzero_weights": 1235,
+     "output_tokens": 220627,
+     "api_calls": 2,
+     "list_cost_usd": 4.53,
+     "wall_s": 2168
+    },
+    {
+     "run": 3,
+     "mean": 16.4,
+     "se": 0.5,
+     "mean_length": 432,
+     "capped_frac": 0.0,
+     "statements": 208,
+     "skipped": 0,
+     "nonzero_weights": 1135,
+     "output_tokens": 230911,
+     "api_calls": 2,
+     "list_cost_usd": 4.63,
+     "wall_s": 2291
+    }
+   ],
+   "claude_mean": 15.7
+  },
+  {
+   "game": "asterix",
+   "astra": {
+    "paper_mean": 53.2,
+    "paper_se": 1.0,
+    "rescored_mean": 54.8,
+    "rescored_se": 1.0,
+    "mean_length": 878,
+    "capped_frac": 0.0
+   },
+   "ppo": {
+    "ppo100m_best": 25.8,
+    "ppo100m_median": 17.1,
+    "ppo500m_best": 55.2,
+    "ppo500m_median": 46.9
+   },
+   "claude": [
+    {
+     "run": 1,
+     "mean": 30.5,
+     "se": 0.8,
+     "mean_length": 670,
+     "capped_frac": 0.0,
+     "statements": 166,
+     "skipped": 0,
+     "nonzero_weights": 1223,
+     "output_tokens": 88941,
+     "api_calls": 1,
+     "list_cost_usd": 1.81,
+     "wall_s": 829
+    },
+    {
+     "run": 2,
+     "mean": 47.4,
+     "se": 1.0,
+     "mean_length": 818,
+     "capped_frac": 0.0,
+     "statements": 143,
+     "skipped": 0,
+     "nonzero_weights": 602,
+     "output_tokens": 80156,
+     "api_calls": 1,
+     "list_cost_usd": 1.61,
+     "wall_s": 726
+    },
+    {
+     "run": 3,
+     "mean": 49.5,
+     "se": 0.9,
+     "mean_length": 807,
+     "capped_frac": 0.0,
+     "statements": 91,
+     "skipped": 0,
+     "nonzero_weights": 532,
+     "output_tokens": 114304,
+     "api_calls": 1,
+     "list_cost_usd": 2.29,
+     "wall_s": 1085
+    }
+   ],
+   "claude_mean": 42.5
+  }
+ ]
+}

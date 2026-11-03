@@ -1,0 +1,11 @@
+{
+ "game": "asterix",
+ "weights": "out/exp5_asterix_r2/weights.npz",
+ "episodes": 1000,
+ "mean": 47.378,
+ "se": 0.9932510577208885,
+ "max": 195.0,
+ "mean_length": 817.589,
+ "capped_frac": 0.0,
+ "seconds": 1.1
+}

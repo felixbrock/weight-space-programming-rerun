@@ -1,0 +1,11 @@
+{
+ "game": "breakout",
+ "weights": "data/logs/exp5_write_from_scratch/networks/breakout/hand.npz",
+ "episodes": 1000,
+ "mean": 515.849,
+ "se": 7.5768908844244605,
+ "max": 809.0,
+ "mean_length": 7376.05,
+ "capped_frac": 0.534,
+ "seconds": 8.3
+}

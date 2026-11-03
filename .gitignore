@@ -1,0 +1,7 @@
+# created by the run, not tracked
+data/
+runs/
+out/
+venv/
+scripts/minatar_envs/
+__pycache__/

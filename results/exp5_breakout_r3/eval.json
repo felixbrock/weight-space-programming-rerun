@@ -1,0 +1,11 @@
+{
+ "game": "breakout",
+ "weights": "out/exp5_breakout_r3/weights.npz",
+ "episodes": 1000,
+ "mean": 470.131,
+ "se": 5.224021079133893,
+ "max": 664.0,
+ "mean_length": 8395.064,
+ "capped_frac": 0.702,
+ "seconds": 10.5
+}

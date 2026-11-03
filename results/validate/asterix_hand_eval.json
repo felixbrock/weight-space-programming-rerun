@@ -1,0 +1,11 @@
+{
+ "game": "asterix",
+ "weights": "data/logs/exp5_write_from_scratch/networks/asterix/hand.npz",
+ "episodes": 1000,
+ "mean": 54.841,
+ "se": 1.0265698050130663,
+ "max": 181.0,
+ "mean_length": 877.911,
+ "capped_frac": 0.0,
+ "seconds": 1.4
+}

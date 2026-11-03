@@ -1,0 +1,11 @@
+{
+ "game": "seaquest",
+ "weights": "data/logs/exp5_write_from_scratch/networks/seaquest/hand.npz",
+ "episodes": 1000,
+ "mean": 52.278,
+ "se": 1.3767680291923567,
+ "max": 184.0,
+ "mean_length": 1388.648,
+ "capped_frac": 0.0,
+ "seconds": 2.6
+}
